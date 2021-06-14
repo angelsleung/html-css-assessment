@@ -7,7 +7,10 @@ body {
   color: #0a162b;
   margin: 0;
   text-align: center;
-  padding: 2rem 1rem;
+}
+
+.best-jobs {
+  padding: 2rem 1rem 0;
 }
 
 .badge {
@@ -42,6 +45,7 @@ body {
 .find-degree {
   border-top: 2px solid;
   border-bottom: 2px solid;
+  margin: 0 1rem;
   padding: 1.5rem 0;
 }
 
@@ -51,7 +55,7 @@ body {
 }
 
 .find-degree-subheading {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   margin: 0.2rem 0 0.8rem;
 }
@@ -61,8 +65,9 @@ body {
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 1.1rem;
   padding: 0.5rem;
-  border: 1px solid gray;
+  border: 1px solid darkgray;
   border-radius: 5px;
+  background-color: white;
 }
 
 .search-button {
@@ -75,4 +80,46 @@ body {
   background: linear-gradient(#ffc428, #ffda36);
   margin: 0.6rem;
   padding: 1rem 0;
+}
+
+.top-skills-div {
+  background-color: #f3fbff;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.top-skills-heading {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 15rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.skill-div {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem 0.5rem 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.05);
+}
+
+.skill-name {
+  margin: 0.2rem 0;
+  font-size: 1.1rem;
+}
+
+.skill-description {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
 }
