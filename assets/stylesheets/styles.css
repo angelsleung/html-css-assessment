@@ -23,17 +23,18 @@ body {
   font-weight: normal;
 }
 
-.job-links {
+.job-links-first-row,
+.job-links-second-row {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 2rem;
 }
 
-.first-row > .job-link {
+.job-links-first-row > .job-link {
   width: 5rem;
 }
 
-.second-row > .job-link {
+.job-links-second-row > .job-link {
   width: 7rem;
 }
 
@@ -97,12 +98,20 @@ body {
   padding-top: 1rem;
 }
 
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .skill-div {
   background-color: white;
   margin: 1rem;
   padding: 1rem 0.5rem 0.5rem;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgb(0, 0, 0, 0.05);
+  width: 20rem;
 }
 
 .skill-name {
@@ -112,14 +121,63 @@ body {
 
 .skill-description {
   margin: 0;
-  font-size: 0.95rem;
   line-height: 1.5rem;
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 768px) {
 
+  .job-links {
+    padding: 0 6rem 2rem;
+  }
+
+  .job-links-first-row > .job-link,
+  .job-links-second-row > .job-link {
+    width: 15rem;
+  }
+
+  .find-degree {
+    margin: 0 4rem;
+  }
+
+  .find-degree-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .level {
+    width: 20rem;
+    height: 3.5rem;
+  }
+
+  .search-button {
+    width: 10rem;
+    height: 3.5rem;
+  }
+
+  .top-skills-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .top-skills-heading {
+    width: 25rem;
+    padding: 2rem 0 1rem;
+  }
+
+  .skill-row {
+    flex-direction: row;
+  }
+
+  .skill-div {
+    margin: 0.6rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
+  .job-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
