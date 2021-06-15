@@ -23,18 +23,19 @@ body {
   font-weight: normal;
 }
 
-.job-links-first-row,
-.job-links-second-row {
+.job-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
-.job-links-first-row > .job-link {
-  width: 5rem;
+.job-link {
+  width: 5.5rem;
+  padding: 1rem 0;
 }
 
-.job-links-second-row > .job-link {
+.most-lucrative.job-link {
   width: 7rem;
 }
 
@@ -126,14 +127,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-
   .job-links {
-    padding: 0 6rem 2rem;
+    padding: 0 5rem 2rem;
   }
 
-  .job-links-first-row > .job-link,
-  .job-links-second-row > .job-link {
-    width: 15rem;
+  .job-link,
+  .most-lucrative.job-link {
+    width: auto;
   }
 
   .find-degree {
@@ -176,8 +176,21 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .job-links {
+  .find-degree {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+
+  .find-degree-subheading {
+    text-align: left;
+  }
+
+  .find-degree-title {
+    padding: 0 1rem;
+  }
+
+  .skill-div {
+    width: 24rem;
+    padding: 1rem;
   }
 }
