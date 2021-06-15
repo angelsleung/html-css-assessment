@@ -16,6 +16,7 @@ body {
 .badge {
   margin: 0 auto;
   width: 168px;
+  height: 239px;
 }
 
 .job-link-heading {
@@ -113,6 +114,26 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
   width: 20rem;
+}
+
+.research-icon {
+  width: 46px;
+  height: 52px;
+}
+
+.data-analysis-icon {
+  width: 46px;
+  height: 52px;
+}
+
+.communication-icon {
+  width: 54px;
+  height: 47px;
+}
+
+.project-management-icon {
+  width: 49px;
+  height: 41px;
 }
 
 .skill-name {
