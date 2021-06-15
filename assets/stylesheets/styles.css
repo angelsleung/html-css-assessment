@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #0a162b;
+  margin: 0;
+  text-align: center;
+}
+
+.best-jobs {
+  padding: 2rem 1rem 0;
+}
+
+.badge {
+  margin: 0 auto;
+  width: 168px;
+}
+
+.job-link-heading {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.job-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.job-link {
+  width: 5.5rem;
+  padding: 1rem 0;
+}
+
+.most-lucrative.job-link {
+  width: 7rem;
+}
+
+.job-link > a {
+  font-weight: bold;
+  color: #0a162b;
+}
+
+.find-degree {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin: 0 1rem;
+  padding: 1.5rem 0;
+}
+
+.find-degree-heading {
+  font-size: 1.3rem;
+  margin: 1rem 0 0;
+}
+
+.find-degree-subheading {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin: 0.2rem 0 0.8rem;
+}
+
+.level {
+  width: 90%;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border: 2px solid #D0D0D0;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.search-button {
+  text-transform: uppercase;
+  width: 90%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+  margin: 0.8rem;
+  padding: 1rem 0;
+}
+
+.top-skills-div {
+  background-color: #F3FBFF;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.top-skills-heading {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 15rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-div {
+  background-color: white;
+  margin: 0.5rem 1rem;
+  padding: 1rem 0.5rem 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  width: 20rem;
+}
+
+.skill-name {
+  margin: 0.2rem 0;
+  font-size: 1.1rem;
+}
+
+.skill-description {
+  margin: 0;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .job-links {
+    padding: 0 5rem 2rem;
+  }
+
+  .job-link,
+  .most-lucrative.job-link {
+    width: auto;
+  }
+
+  .find-degree {
+    margin: 0 4rem;
+  }
+
+  .find-degree-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .level {
+    width: 20rem;
+    height: 3.5rem;
+  }
+
+  .search-button {
+    width: 10rem;
+    height: 3.5rem;
+  }
+
+  .top-skills-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .top-skills-heading {
+    width: 25rem;
+    padding: 2rem 0 1rem;
+  }
+
+  .skill-row {
+    flex-direction: row;
+  }
+
+  .skill-div {
+    margin: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .find-degree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 14rem;
+  }
+
+  .find-degree-subheading {
+    text-align: left;
+  }
+
+  .find-degree-title {
+    padding: 0 1rem;
+  }
+
+  .skill-div {
+    width: 24rem;
+    padding: 1rem;
+  }
+}
