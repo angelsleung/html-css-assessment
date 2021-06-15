@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Cabin', sans-serif;
   color: #0a162b;
   margin: 0;
   text-align: center;
@@ -15,11 +15,11 @@ body {
 
 .badge {
   margin: 0 auto;
-  width: 10rem;
+  width: 168px;
 }
 
 .job-link-heading {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: normal;
 }
 
@@ -64,10 +64,10 @@ body {
 
 .level {
   width: 90%;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 1.1rem;
   padding: 0.5rem;
-  border: 1px solid darkgray;
+  border: 2px solid #D0D0D0;
   border-radius: 5px;
   background-color: white;
 }
@@ -79,13 +79,13 @@ body {
   font-size: 1.1rem;
   border: none;
   border-radius: 30px;
-  background: linear-gradient(#ffc428, #ffda36);
-  margin: 0.6rem;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+  margin: 0.8rem;
   padding: 1rem 0;
 }
 
 .top-skills-div {
-  background-color: #f3fbff;
+  background-color: #F3FBFF;
   margin-top: 1rem;
   padding-bottom: 0.5rem;
 }
@@ -108,10 +108,10 @@ body {
 
 .skill-div {
   background-color: white;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
   padding: 1rem 0.5rem 0.5rem;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
   width: 20rem;
 }
 
@@ -176,9 +176,12 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+
   .find-degree {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0 14rem;
   }
 
   .find-degree-subheading {
