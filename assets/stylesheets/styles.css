@@ -176,6 +176,10 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .job-links {
+    padding: 0 0 2rem;
+    margin: 0 6rem;
+  }
 
   .find-degree {
     display: flex;
